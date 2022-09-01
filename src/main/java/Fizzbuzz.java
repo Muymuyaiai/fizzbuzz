@@ -9,7 +9,7 @@ public class Fizzbuzz {
         if (i % 15 == 0){
             a = "fizzbuzz";
         } else if (i % 3 == 0){
-            a = "fizz";
+            a = "error";
         } else if (i % 5 == 0){
             a = "buzz";
         } else {
